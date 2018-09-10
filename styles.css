@@ -1,0 +1,61 @@
+h1{
+  color:blue;
+}
+
+#searchDiv,#minPriceDiv{
+  max-width:100%
+}
+
+#graph{
+  max-width: 50%;
+  margin:auto;
+}
+#title{
+  text-align: center;
+}
+
+#searchDiv, #minPriceDiv{
+  width:200%;
+  justify-content:center;
+}
+
+ #search, #minPrice {
+   width:200%;
+   /* margin:auto; */
+   padding:12px 20px;
+   margin:8px 8px;
+   border: 1px solid red;
+   border-radius:10px;
+   display:block;
+   float:none;
+   text-align:center;
+
+ }
+
+ #mainBanner{
+   background:linear-gradient(to bottom, royalblue, white);
+   background-repeat:no-repeat;
+   background-size:auto;
+   /* margin:auto; */
+   margin: -8px -8px;
+   padding:40px;
+   display: flex;
+   align-items:center;
+   flex-direction: column;
+   justify-content: center;
+
+ }
+
+
+#results{
+  background:linear-gradient(to top, royalblue, white);
+  background-repeat:no-repeat;
+  background-size:auto;
+  /* margin:auto; */
+  margin: -8px -8px;
+  padding:40px;
+  /* display: flex; */
+  align-items:center;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+}
